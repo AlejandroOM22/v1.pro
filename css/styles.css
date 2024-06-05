@@ -1,0 +1,86 @@
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    margin: 15px;
+    border-radius: 20px;
+}
+.navbar-brand {
+    font-weight: 500;
+    color: #009970;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.login-button{
+    background-color: #009970;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-button:hover{
+    background-color: #00b383;
+}
+
+.navbar-toggler{
+    border:none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link {
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active {
+    color: rgb(0, 0, 0);
+}
+@media (min-width: 991px) {
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover::before{
+    width: 100%;
+    visibility: visible;
+}
+}
+.lobster-regular {
+    color: #009970;
+    font-family: "Lobster", sans-serif;
+    font-style: normal;
+    font-size: 1.7rem; /*importante revisar el tamaño responsivo*/
+    font-weight: 400;
+  }
+  .lobster-regular:hover {
+    color: #053629;
+  }
+
+
+body{
+background-color: bisque;
+}
+img{
+    height: 600px;
+    width: 200px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+  }
+  
+  
